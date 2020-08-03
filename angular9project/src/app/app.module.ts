@@ -51,6 +51,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 
 //Forms
 import { FormsModule }   from '@angular/forms';
+import { ProfileComponent } from './profile/profile.component';
 
 @NgModule({
   declarations: [
@@ -60,7 +61,8 @@ import { FormsModule }   from '@angular/forms';
     LoginComponent,
     HomeComponent,
     UsersComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
